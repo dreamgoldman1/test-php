@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    background-color: #555;
+    color: white;
+    padding: 30px;
+}
+
+.main-q1,
+.main-q2 {
+    width: 100%;
+    padding: 30px;
+}
+
+.main-q1 p,
+.main-q2 p {
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.main-q1 table,
+.main-q2 table {
+    width: 80%;
+}
+
+th {
+    border-bottom: solid #000 1px;
+    padding-right: 5px;
+}
+
+td {
+    border-bottom: solid #AAA 1px;
+    padding-right: 5px;
+}
+
+.table-total {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
